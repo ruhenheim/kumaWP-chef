@@ -19,6 +19,8 @@ Vagrant.configure("2") do |config|
   #Exposing the archive
   config.vm.synced_folder dump_dir, backup_dir, :create => true, :owner => 'vagrant', :group => 'vagrant', :extra => 'dmode=775,fmode=755'
 
+  config.berkshelf.enabled = true
+
   config.vm.provision :chef_solo do |chef|
     # chef.cookbooks_path = ["./cookbooks", "./site-cookbooks"]
     chef.cookbooks_path = "./cookbooks"
