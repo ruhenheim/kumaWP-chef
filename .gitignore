@@ -1,5 +1,5 @@
-/cookbooks/
-!/cookbooks/omusubi
+#/cookbooks/
+#!/cookbooks/omusubi
 
 .rake_test_cache
 
