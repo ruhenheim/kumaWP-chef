@@ -1,0 +1,6 @@
+[submodule "cookbooks/omusubi"]
+	path = cookbooks/omusubi
+	url = https://github.com/yandod/omusubi.git
+[submodule "sandbox/kumaWP"]
+	path = sandbox/kumaWP
+	url = https://github.com/ruhenheim/kumaWP.git
